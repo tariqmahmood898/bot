@@ -1,10 +1,9 @@
 const { send } = require('process');
 const { Telegraf } = require('telegraf');
-const BOT_TOKEN = '7362211803:AAFEiEA_lpW8yt-YcypwBOk3P8lXYYDLnG8'; 
+const BOT_TOKEN = 'copy past telegram bot api key'; 
 const bot = new Telegraf(BOT_TOKEN);
 
 const web_link = "https://celebrated-torte-184681.netlify.app/";
-const shop_link = "https://rax.netlifi.app"
 const userDataFile = 'user_data.json'; // Name of your JSON file
 
 // Load user data from the JSON file (if it exists)
